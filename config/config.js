@@ -321,7 +321,7 @@ export default {
                 {
                   name: 'card',
                   path: '/viper/card',
-                  component: './editor/mind',
+                  component: './viper/card',
                 }
               ],
             },
