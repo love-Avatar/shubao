@@ -3,7 +3,7 @@ import { Router as DefaultRouter, Route, Switch } from 'react-router-dom';
 import dynamic from 'umi/dynamic';
 import renderRoutes from 'umi/lib/renderRoutes';
 import history from '@tmp/history';
-import RendererWrapper0 from 'E:/cmsdemo/shubao/src/pages/.umi/LocaleWrapper.jsx';
+import RendererWrapper0 from 'E:/shixun1/shubao/src/pages/.umi/LocaleWrapper.jsx';
 
 const Router = require('dva/router').routerRedux.ConnectedRouter;
 
@@ -46,7 +46,7 @@ const routes = [
           {
             component: () =>
               React.createElement(
-                require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                   .default,
                 { pagesPath: 'src/pages', hasRoutesInConfig: true },
               ),
@@ -85,7 +85,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -118,7 +118,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -161,7 +161,7 @@ const routes = [
                   {
                     component: () =>
                       React.createElement(
-                        require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                        require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                           .default,
                         { pagesPath: 'src/pages', hasRoutesInConfig: true },
                       ),
@@ -189,7 +189,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -216,7 +216,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -243,7 +243,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -276,7 +276,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -303,7 +303,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -336,7 +336,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -351,7 +351,7 @@ const routes = [
               {
                 name: 'list',
                 path: '/viper/list',
-                component: require('../editor/flow').default,
+                component: require('../viper/list').default,
                 exact: true,
               },
               {
@@ -363,7 +363,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -390,7 +390,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -429,7 +429,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -468,7 +468,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -495,7 +495,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -546,7 +546,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -573,7 +573,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -593,7 +593,7 @@ const routes = [
           {
             component: () =>
               React.createElement(
-                require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+                require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
                   .default,
                 { pagesPath: 'src/pages', hasRoutesInConfig: true },
               ),
@@ -603,7 +603,7 @@ const routes = [
       {
         component: () =>
           React.createElement(
-            require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+            require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
               .default,
             { pagesPath: 'src/pages', hasRoutesInConfig: true },
           ),
@@ -613,7 +613,7 @@ const routes = [
   {
     component: () =>
       React.createElement(
-        require('E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/plugins/404/NotFound.js')
+        require('E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/plugins/404/NotFound.js')
           .default,
         { pagesPath: 'src/pages', hasRoutesInConfig: true },
       ),

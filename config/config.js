@@ -316,7 +316,7 @@ export default {
                 {
                   name: 'list',
                   path: '/viper/list',
-                  component: './editor/flow',
+                  component: './viper/list',
                 },
                 {
                   name: 'card',

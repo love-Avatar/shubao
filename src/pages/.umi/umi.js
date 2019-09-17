@@ -5,7 +5,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import findRoute, {
   getUrlQuery,
-} from 'E:/cmsdemo/shubao/node_modules/_umi-build-dev@1.11.4@umi-build-dev/lib/findRoute.js';
+} from 'E:/shixun1/shubao/node_modules/_umi-build-dev@1.11.5@umi-build-dev/lib/findRoute.js';
 
 // runtime plugins
 const plugins = require('umi/_runtimePlugin');
