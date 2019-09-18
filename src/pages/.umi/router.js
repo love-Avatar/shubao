@@ -411,7 +411,7 @@ const routes = [
               {
                 name: 'support',
                 path: '/class/support',
-                component: require('../course/author').default,
+                component: require('../editor/author').default,
                 exact: true,
               },
               {

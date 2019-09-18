@@ -355,7 +355,7 @@ export default {
                 {
                   name: 'support',
                   path: '/class/support',
-                  component: './course/author',
+                  component: './editor/author',
                 },
                 {
                   name: 'all',
