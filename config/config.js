@@ -322,7 +322,7 @@ export default {
                   name: 'card',
                   path: '/viper/card',
                   component: './editor/mind',
-                }
+                },
               ],
             },
             {
@@ -339,7 +339,7 @@ export default {
                   name: 'list',
                   path: '/partner/list',
                   component: './editor/mind',
-                }
+                },
               ],
             },
             {
@@ -365,7 +365,7 @@ export default {
                 {
                   name: 'before-verify',
                   path: '/class/beforeVerify',
-                  component: './editor/mind',
+                  component: './class/verify',
                 },
               ],
             },
