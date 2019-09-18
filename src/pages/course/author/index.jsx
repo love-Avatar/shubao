@@ -5,7 +5,6 @@ import {Table, Col, Row ,Input ,Select ,Button} from 'antd';
 import GGEditor, { Mind } from 'gg-editor';
 import { PageHeaderWrapper } from '@ant-design/pro-layout';
 import { formatMessage } from 'umi-plugin-react/locale';
-import data from './worldCup2018.json';
 import styles from './index.less';
 import './index.css'
 GGEditor.setTrackable(false);
