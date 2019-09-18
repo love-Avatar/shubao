@@ -423,7 +423,7 @@ const routes = [
               {
                 name: 'before-verify',
                 path: '/class/beforeVerify',
-                component: require('../editor/mind').default,
+                component: require('../class/verify').default,
                 exact: true,
               },
               {
