@@ -3,50 +3,41 @@
   flex: 1;
   flex-direction: column;
   width: 100%;
-  height: calc(100vh - 250px);
   background: #fff;
 }
-
 .editorHd {
   padding: 8px;
   border: 1px solid #e6e9ed;
 }
-
 .editorBd {
   flex: 1;
 }
-
 .editorSidebar,
 .editorContent {
   display: flex;
   flex-direction: column;
 }
-
 .editorSidebar {
   background: #fafafa;
-
-  &:first-child {
-    border-right: 1px solid #e6e9ed;
-  }
-
-  &:last-child {
-    border-left: 1px solid #e6e9ed;
-  }
 }
-
+.editorSidebar:first-child {
+  border-right: 1px solid #e6e9ed;
+}
+.editorSidebar:last-child {
+  border-left: 1px solid #e6e9ed;
+}
 .flow,
 .mind,
 .koni {
   flex: 1;
 }
-
-// ====================================
-.navLxt{
+.navLxt {
   width: 100%;
   height: 170px;
-  background: deeppink;
 }
-.example-input .ant-input {
-  width: 200px;
-  margin: 0 8px 8px 0;
+.qin {
+  background: darkseagreen;
+}
+.lan {
+  background: deepskyblue;
 }
